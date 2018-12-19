@@ -1,0 +1,14 @@
+I implemented the Chord Distributed Hash Table in Python, using Apache Thrift.
+How-to Run the Program:
+	ssh into a remote.cs.binghamton.edu computers
+	go to the server code and type "python PythonServer.py <port-number>" and type the port number you wish to set up the server on
+	open another terminal window and ssh into the remote.cs.binghamton.edu computers again
+	Create a nodes.txt document which has the values for all of the nodes running with their IP Addresses and Port numbers in <IP>:<PORT> format
+	To initialize the finger tables, run ./init nodes.txt to initalize the fingertables.
+	run the client testing code and make sure to pass the IP address of the server computer and the correct port number
+
+
+Completion Progress:
+	I have implemented all 6 of the Remote Procedure Calls. I have been trying to extensively test all of the functions, but have been running into problems. I do believe that the implementation is correct (mostly correct)
+
+
